@@ -1,0 +1,9 @@
+<div class="container">
+<h1 class="text-center">Пошук користувача на GitHub</h1>
+
+<%= form_tag show_path, method: :post do %>
+  <%= label_tag :login, 'GitHub логін:' %>
+  <%= text_field_tag :login, nil, placeholder: 'Введіть логін' %>
+  <%= submit_tag 'Пошук'%>
+<% end %>
+</div>

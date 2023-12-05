@@ -1,0 +1,37 @@
+// Place all the styles related to the GithubUsers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.red-alert {
+  color: red;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #007bff;
+}
+
+.repo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.repo-list-item {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}

@@ -1,0 +1,10 @@
+<div class="container">
+<h3>GitHub ім'я: <em><%= @user_info['name'].nil? ? 'Імя користувача не вказане на Github' : @user_info['name'] %></em></h3>
+
+<h3>Репозиторії:</h3>
+<ul class="repo-list">
+  <% @repository.each do |r| %>
+    <li class="repo-list-item"><b><%= r['name'] %></b></li>
+  <% end %>
+</ul>
+</div>

@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby 2.7.2
 
-Things you may want to cover:
+* Rails 5.2.8.1
 
-* Ruby version
+* Github CI
 
-* System dependencies
+* RSPEC
 
-* Configuration
+* Rubocop
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Heroku Production](https://github-search-production-62ac83650c62.herokuapp.com)

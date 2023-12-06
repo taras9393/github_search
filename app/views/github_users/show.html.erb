@@ -4,7 +4,9 @@
 <h3>Репозиторії:</h3>
 <ul class="repo-list">
   <% @repository.each do |r| %>
-    <li class="repo-list-item"><b><%= r['name'] %></b></li>
+    <li class="repo-list-item">
+      <%= link_to r['name'], r['html_url'], target: '_blank' %>
+    </li>
   <% end %>
 </ul>
 <%= link_to "Назад", :back %>
